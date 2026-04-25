@@ -1,0 +1,16 @@
+{
+  "name": "uow",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "discord.js": "^14.26.3",
+    "nodemon": "^3.1.14"
+  }
+}
