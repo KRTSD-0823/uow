@@ -46,7 +46,7 @@ client.on(Events.ClientReady, readyClient => {
 // asyncで非同期関数化😅
 client.on(Events.MessageCreate, async message => {
   // 冷笑してるか判定する正規表現
-  const uowRegExp = /(?<=.*)(?:[uUｕＵうウｳ][oOｏＯおオｵ][WwＷｗ笑]?)$/m;
+  const uowRegExp = /(?<=.*)(?:([uUｕＵうウｳ][oOｏＯおオｵ]|[魚])[WwＷｗ笑]?)$/m;
 
   // どわーｗ
   if (!uowRegExp.test(message.content)) return;
