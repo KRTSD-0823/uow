@@ -53,7 +53,7 @@ client.on(Events.MessageCreate, async message => {
 
   try {
     // うおｗ
-    await message.react("🐟");
+    await message.react("1498073060555624468");
 
     const uowData = await doUowCount();
     const currentTime = new Date();
